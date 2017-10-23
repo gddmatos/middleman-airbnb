@@ -1,0 +1,18 @@
+<div id="about">
+  <div class="about-content">
+    <h1>This template was modified with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+      <% data.team.each do |member, info| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{info.gh_username}", class: "img-circle" %>
+        <h2><%= info.name %></h2>
+        <p>
+          <% link_to "https://github.com/#{info.gh_username}", target: "_blank" do %>
+          <i class="fa fa-github"></i> <%= info.gh_username %>
+          <% end %>
+        </p>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

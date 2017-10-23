@@ -1,0 +1,12 @@
+lisbon:
+  name: 'Lisbon'
+  description: 'Sunny and Hilly'
+berlin:
+  name: 'Berlin'
+  description: 'Old and rebuilt'
+shanghai:
+  name: 'Shanghai'
+  description: 'Full of potential'
+tokyo:
+  name: 'Tokyo'
+  description: 'The biggest city in the world'
